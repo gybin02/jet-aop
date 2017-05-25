@@ -74,7 +74,7 @@ LogCat 打印：
  MainActivity.testLog 执行时间： [3ms]
 ```
 ### Problem
-* Android Studio的Instant Run功能有时会对你的编译有影响，当出现这种情况时，关闭Instant Run功能，
+* Android Studio的`Instant Run`功能有时会对你的编译有影响，当出现这种情况时，关闭Instant Run功能，
 * aspectj代码编译时会报一些如下的错，找到对应的库，把这个库过滤掉就可以了。
 
 ### aspectjx配置
