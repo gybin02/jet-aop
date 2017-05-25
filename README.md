@@ -23,7 +23,7 @@ apply plugin: 'com.hujiang.android-aspectjx'
 ...
 
 dependencies {
-    compile 'com.safframework:saf-aop:1.1.0'
+    compile 'com.meiyou.framework:jet-aop:0.0.1-SNAPSHOT'
     ...
 }
 ```
