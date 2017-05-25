@@ -1,5 +1,5 @@
 ## Jet AOP 
-开发该项目的原因是基于还没有发现目前的开源库中比较好的AOP框架或者工具，虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山.
+美柚AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
 
 ### Fetures
 
