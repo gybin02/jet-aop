@@ -73,6 +73,20 @@ dependencies {
 ```
 基于aspectj的AOP，无需使用耗费性能的反射.不过,需要在build.gradle中配置一下aspectj
 
+### 待实现，
+
+待实现区域，列了一些我想到的通用功能， 但是项目里面肯定还存在很多通用的功能；欢迎 各位 提Issue，让项目更强大；
+
+
+*  @JPermission([int[]])
+方法需要的申请的权限数组； 比如：
+```
+      String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA};
+```
+*  @JAuthorize()
+方法是否需要登录才能调用，否则跳到登录页面；
+更强大的方式可以参考 Apache Shiro 
+
 
 ### Problem
 * Android Studio的`Instant Run`功能有时会对你的编译有影响，当出现这种情况时，关闭Instant Run功能，
