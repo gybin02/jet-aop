@@ -2,34 +2,7 @@
 美柚AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
 
 ### Fetures
-重复的功能，可以通过切面的方法来实现；
-
-### Download
-在根目录下的build.gradle中添加
-```groovy
-buildscript {
-     repositories {
-         jcenter()
-     }
-     dependencies {
-         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.0.8'
-     }
- }
-```
-在app 模块目录下的build.gradle中添加
-
-```groovy
-apply plugin: 'com.hujiang.android-aspectjx'
-
-...
-
-dependencies {
-    compile 'com.meiyou.framework:jet-aop:0.0.1-SNAPSHOT'
-    ...
-}
-```
-基于aspectj的AOP，无需使用耗费性能的反射.不过,需要在build.gradle中配置一下aspectj
-
+* 重复的功能，可以通过切面的方法来实现；
 
 ### Use
 
@@ -73,6 +46,34 @@ LogCat 打印：
  MainActivity.testLog(..) 方法 返回值 : 0
  MainActivity.testLog 执行时间： [3ms]
 ```
+
+### Download
+在根目录下的build.gradle中添加
+```groovy
+buildscript {
+     repositories {
+         jcenter()
+     }
+     dependencies {
+         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.0.8'
+     }
+ }
+```
+在app 模块目录下的build.gradle中添加
+
+```groovy
+apply plugin: 'com.hujiang.android-aspectjx'
+
+...
+
+dependencies {
+    compile 'com.meiyou.framework:jet-aop:0.0.1-SNAPSHOT'
+    ...
+}
+```
+基于aspectj的AOP，无需使用耗费性能的反射.不过,需要在build.gradle中配置一下aspectj
+
+
 ### Problem
 * Android Studio的`Instant Run`功能有时会对你的编译有影响，当出现这种情况时，关闭Instant Run功能，
 * aspectj代码编译时会报一些如下的错，找到对应的库，把这个库过滤掉就可以了。
