@@ -2,6 +2,7 @@
 美柚AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
 
 ### Fetures
+重复的功能，可以通过切面的方法来实现；
 
 ### Download
 在根目录下的build.gradle中添加
