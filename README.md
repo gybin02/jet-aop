@@ -6,6 +6,11 @@ AOP是OOP的延续，是软件开发中的一个热点，也是spring框架中�
 参考的主要项目代码为JakeWharton大神的Hugo。Hugo是一个非常容易使用、易扩展的Aop例子
 
 ![Logo](http://git.meiyou.im/uploads/project/avatar/410/m4tw98yrr7pi2c0r_heading.jpeg)
+
+更重要的是你可以 实现 任何AOP（面向切面）的代码。具体的实现参考'AspectJ'功能；
+
+http://www.eclipse.org/aspectj/
+
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
 
