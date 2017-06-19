@@ -57,7 +57,7 @@ LogCat 打印：
  MainActivity.testLog 执行时间： [3ms]
 ```
 ### AspectJ 实现 无侵入方法监控例子
-[无侵入方法监控例子](/aspectj-method.md)
+[无侵入方法监控例子](/aspectJ-method.md)
 ### Download
 在根目录下的build.gradle中添加
 ```groovy
