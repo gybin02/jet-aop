@@ -56,7 +56,7 @@ LogCat 打印：
  MainActivity.testLog(..) 方法 返回值 : 0
  MainActivity.testLog 执行时间： [3ms]
 ```
-### AspectJ 实现 无侵入方法监控例子
+### AspectJ 实现 无侵入方法监控例子（View.onClick方法拦截）
 [无侵入方法监控例子](/aspectJ-method.md)
 ### Download
 在根目录下的build.gradle中添加
