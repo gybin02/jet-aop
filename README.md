@@ -1,20 +1,20 @@
 ## Jet AOP 
 AOP是OOP的延续，是软件开发中的一个热点，也是spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。 
 
-美柚AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
+Jet-AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
 
-参考的主要项目代码为JakeWharton大神的Hugo。Hugo是一个非常容易使用、易扩展的Aop例子
+参考的主要项目代码为JakeWharton大神的**Hugo**。Hugo是一个非常容易使用、易扩展的Aop例子
 
-![Logo](http://git.meiyou.im/uploads/project/avatar/410/m4tw98yrr7pi2c0r_heading.jpeg)
-
-更重要的是你可以 实现 任何AOP（面向切面）的代码。具体的实现参考 'AspectJ' 功能；
+更重要的是你可以 实现 任何AOP（面向切面）的代码。具体的实现参考 **AspectJ** 功能；
 
 http://www.eclipse.org/aspectj/
+
+![Logo](http://git.meiyou.im/uploads/project/avatar/410/m4tw98yrr7pi2c0r_heading.jpeg)
 
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
 
-### Use
+### 部分已实现的功能 Use
 
 | 注解名称        | 作用          | 备注          |
 | ------------- |:-------------:| :-------------:|
@@ -163,6 +163,9 @@ aspectjx {
 * [AspectJ NoteBook](https://eclipse.org/aspectj/doc/released/adk15notebook/index.html)
 
 * [AOP 研究](/AOP研究.md)
+* [AspectJ插件](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx)
+
+* [SAF-AOP DEMO](https://github.com/fengzhizi715/SAF-AOP)
 
 ### License
 -------
