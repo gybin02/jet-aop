@@ -9,7 +9,7 @@ Jet-AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片�
 
 http://www.eclipse.org/aspectj/
 
-![logo](/image/logo)
+![logo](/image/logo.jpeg)
 
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
