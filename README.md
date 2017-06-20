@@ -1,5 +1,15 @@
 ## Jet AOP 
+AOP是OOP的延续，是软件开发中的一个热点，也是spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。 
+
 美柚AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用AspectJ来实现；
+
+参考的主要项目代码为JakeWharton大神的Hugo。Hugo是一个非常容易使用、易扩展的Aop例子
+
+![Logo](http://git.meiyou.im/uploads/project/avatar/410/m4tw98yrr7pi2c0r_heading.jpeg)
+
+更重要的是你可以 实现 任何AOP（面向切面）的代码。具体的实现参考 'AspectJ' 功能；
+
+http://www.eclipse.org/aspectj/
 
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
@@ -46,7 +56,8 @@ LogCat 打印：
  MainActivity.testLog(..) 方法 返回值 : 0
  MainActivity.testLog 执行时间： [3ms]
 ```
-
+### AspectJ 实现 无侵入方法监控例子
+[无侵入方法监控例子](/aspectJ-method.md)
 ### Download
 在根目录下的build.gradle中添加
 ```groovy
