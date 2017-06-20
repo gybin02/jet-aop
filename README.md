@@ -1,4 +1,8 @@
 ## Jet AOP 
+[![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[ ![Download](https://api.bintray.com/packages/gybin02/maven/jet-aop/images/download.svg) ](https://bintray.com/gybin02/maven/jet-aop/_latestVersion)
+![Github file size](https://img.shields.io/badge/size-26.0kb-brightgreen.svg)
+
 AOP是OOP的延续，是软件开发中的一个热点，也是spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。 
 
 Jet-AOP框架；虽然xposed，dexposed非常强大，但由于Android的碎片化比较严重，兼容问题永远是一座无法逾越的大山. 因此考虑用**AspectJ**来实现；
