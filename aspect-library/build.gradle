@@ -37,7 +37,7 @@ publish {
     userOrg = 'gybin02'      //bintray注册的用户名
     groupId = 'com.meiyou.framework'         //compile引用时的第1部分groupId
     artifactId = 'jet-aop'     //compile引用时的第2部分项目名
-    publishVersion = '0.0.1-SNAPSHOT'    //compile引用时的第3部分版本号
+    publishVersion = '0.0.1'    //compile引用时的第3部分版本号
     desc = 'This is a Android AOP Architecture library by AspectJ'
     website = 'https://github.com/gybin02/Jet-aop'
 }
