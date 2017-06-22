@@ -15,6 +15,10 @@ http://www.eclipse.org/aspectj/
 
 ![logo](/image/logo.jpeg)
 
+- 可以配合Jet 一起使用，功能更加强大，开发速度杠杠的 
+[Jet](https://github.com/gybin02/Jet)
+- :smile: 如果喜欢，请给个Star:smile:
+
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
 
@@ -88,7 +92,7 @@ dependencies {
 ```
 基于aspectj的AOP，无需使用耗费性能的反射.不过,需要在build.gradle中配置一下**aspectj**
 
-### 待实现，
+### 待实现 TODO，
 
 待实现区域，列了一些我想到的通用功能， 但是项目里面肯定还存在很多通用的功能；欢迎 各位 提Issue，让项目更强大；
 
@@ -102,6 +106,7 @@ dependencies {
 方法是否需要登录才能调用，否则跳到登录页面；
 更强大的方式可以参考 Apache Shiro 
 
+* 使用Kotlin 代码 重写；
 
 ### Problem
 * Android Studio的`Instant Run`功能有时会对你的编译有影响，当出现这种情况时，关闭Instant Run功能，
