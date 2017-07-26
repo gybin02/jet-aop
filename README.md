@@ -97,7 +97,7 @@ dependencies {
 待实现区域，列了一些我想到的通用功能， 但是项目里面肯定还存在很多通用的功能；欢迎 各位 提Issue，让项目更强大；
 
 
-*  @JPermission([int[]])
+*  @JPermission([int[]]) (fixed, See  https://github.com/gybin02/Jet)
 方法需要的申请的权限数组； 比如：
 ```
       String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA};
