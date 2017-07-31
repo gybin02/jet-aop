@@ -18,6 +18,8 @@ http://www.eclipse.org/aspectj/
 - 可以配合Jet 一起使用，功能更加强大，开发速度杠杠的 
 [Jet](https://github.com/gybin02/Jet)
 - :smile: 如果喜欢，请给个Star:smile:
+##### PPT
+[安卓注解和AOP的使用] https://speakerdeck.com/gybin02/android-annotation-and-aspectj
 
 ### Fetures
 * 重复的功能，可以通过切面的方法来实现；
