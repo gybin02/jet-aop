@@ -2,6 +2,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [ ![Download](https://api.bintray.com/packages/gybin02/maven/jet-aop/images/download.svg) ](https://bintray.com/gybin02/maven/jet-aop/_latestVersion)
 ![Github file size](https://img.shields.io/badge/size-26.0kb-brightgreen.svg)
+ [![qq群](https://img.shields.io/badge/QQ%E7%BE%A4-547612870-ff69b4.svg)](http://shang.qq.com/wpa/qunwpa?idkey=f474c19f6b6b7d67e91685511207bcd326a38f50818d8e4569e52a167df85009)
 
 AOP是OOP的延续，是软件开发中的一个热点，也是spring框架中的一个重要内容，是函数式编程的一种衍生范型。利用AOP可以对业务逻辑的各个部分进行隔离，从而使得业务逻辑各部分之间的耦合度降低，提高程序的可重用性，同时提高了开发的效率。 
 
