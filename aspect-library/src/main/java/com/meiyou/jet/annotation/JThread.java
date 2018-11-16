@@ -7,7 +7,7 @@ import java.lang.annotation.Target;
 
 /**
  * 返回值 void 才能使用
- * @author zhengxiaobin@xiaoyouzi.com
+ * @author zhengxiaobin
  * @since 17/5/24
  */
 @Retention(RetentionPolicy.CLASS)
