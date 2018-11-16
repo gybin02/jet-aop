@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect;
+package com.jet.jet.aspect;
 
 import android.util.Log;
 
@@ -19,7 +19,7 @@ public class ThreadAspect {
         asyncMethod(joinPoint);
     }
 
-    @Pointcut("@within(com.meiyou.jet.annotation.JThread)||@annotation(com.meiyou.jet.annotation.JThread)")
+    @Pointcut("@within(com.jet.jet.annotation.JThread)||@annotation(com.jet.jet.annotation.JThread)")
     public void onAsyncMethod() {
     }
 

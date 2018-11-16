@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect;
+package com.jet.jet.aspect;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -16,7 +16,7 @@ public class TryCatchAspect {
         return safeMethod(joinPoint);
     }
 
-    @Pointcut("@within(com.meiyou.jet.annotation.JTryCatch)||@annotation(com.meiyou.jet.annotation.JTryCatch)")
+    @Pointcut("@within(com.jet.jet.annotation.JTryCatch)||@annotation(com.jet.jet.annotation.JTryCatch)")
     public void onSafe() {
     }
 

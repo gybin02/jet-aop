@@ -1,4 +1,4 @@
-package com.meiyou.jet.ui;
+package com.jet.jet.ui;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -7,12 +7,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.meiyou.jet.annotation.JFindView;
-import com.meiyou.jet.annotation.JFindViewOnClick;
-import com.meiyou.jet.annotation.JLogMethod;
-import com.meiyou.jet.annotation.JLogTime;
-import com.meiyou.jet.annotation.JTryCatch;
-import com.meiyou.jet.process.Jet;
+import com.jet.jet.annotation.JFindView;
+import com.jet.jet.annotation.JFindViewOnClick;
+import com.jet.jet.annotation.JLogMethod;
+import com.jet.jet.annotation.JLogTime;
+import com.jet.jet.annotation.JTryCatch;
+import com.jet.jet.process.Jet;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

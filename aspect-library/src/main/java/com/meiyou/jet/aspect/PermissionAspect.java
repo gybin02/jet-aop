@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect;
+package com.jet.jet.aspect;
 
 import org.aspectj.lang.annotation.Aspect;
 

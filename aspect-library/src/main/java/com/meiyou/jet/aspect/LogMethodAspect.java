@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect;
+package com.jet.jet.aspect;
 
 import android.util.Log;
 
@@ -22,7 +22,7 @@ public class LogMethodAspect {
         return logMethod(joinPoint);
     }
 
-    @Pointcut("@within(com.meiyou.jet.annotation.JLogMethod)||@annotation(com.meiyou.jet.annotation.JLogMethod)")
+    @Pointcut("@within(com.jet.jet.annotation.JLogMethod)||@annotation(com.jet.jet.annotation.JLogMethod)")
     public void onLogMethod() {
     }
 

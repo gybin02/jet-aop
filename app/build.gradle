@@ -5,7 +5,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.meiyou.jet.aspect"
+        applicationId "com.jet.jet.aspect"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -29,7 +29,7 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
     testCompile 'junit:junit:4.12'
     
-    compile 'com.meiyou.framework:jet:0.0.6-SNAPSHOT'
+    compile 'com.jet.framework:jet:0.0.6-SNAPSHOT'
     compile project(':aspect-library')
     
 }

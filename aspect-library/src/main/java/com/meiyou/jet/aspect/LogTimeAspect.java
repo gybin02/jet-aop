@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect;
+package com.jet.jet.aspect;
 
 import android.util.Log;
 
@@ -16,11 +16,11 @@ import org.aspectj.lang.reflect.MethodSignature;
 public class LogTimeAspect {
     private static final String TAG = "LogTimeAspect";
 
-    @Pointcut("execution(@com.meiyou.jet.annotation.JLogTime * *(..))")//方法切入点
+    @Pointcut("execution(@com.jet.jet.annotation.JLogTime * *(..))")//方法切入点
     public void methodAnnotated() {
     }
 
-    @Pointcut("execution(@com.meiyou.jet.annotation.JLogTime *.new(..))")//构造器切入点
+    @Pointcut("execution(@com.jet.jet.annotation.JLogTime *.new(..))")//构造器切入点
     public void constructorAnnotated() {
     }
 

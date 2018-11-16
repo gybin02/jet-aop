@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect_library;
+package com.jet.jet.aspect_library;
 
 import org.junit.Test;
 

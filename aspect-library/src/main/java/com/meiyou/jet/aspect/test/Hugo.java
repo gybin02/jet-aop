@@ -1,4 +1,4 @@
-package com.meiyou.jet.aspect.test;
+package com.jet.jet.aspect.test;
 
 import android.util.Log;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 @Aspect
 public class Hugo {
     //带有DebugLog注解的所有类
-    @Pointcut("within(@com.meiyou.jet.annotation.JLoggable *)")
+    @Pointcut("within(@com.jet.jet.annotation.JLoggable *)")
     public void withinAnnotatedClass() {
     }
 
@@ -31,12 +31,12 @@ public class Hugo {
     }
 
     //在带有DebugLog注解的方法
-    @Pointcut("execution(@com.meiyou.jet.annotation.JLoggable * *(..)) || methodInsideAnnotatedType()")
+    @Pointcut("execution(@com.jet.jet.annotation.JLoggable * *(..)) || methodInsideAnnotatedType()")
     public void method() {
     }
 
     //在带有DebugLog注解的构造方法
-    @Pointcut("execution(@com.meiyou.jet.annotation.JLoggable *.new(..)) || constructorInsideAnnotatedType()")
+    @Pointcut("execution(@com.jet.jet.annotation.JLoggable *.new(..)) || constructorInsideAnnotatedType()")
     public void constructor() {
     }
 

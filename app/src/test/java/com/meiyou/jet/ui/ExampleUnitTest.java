@@ -1,4 +1,4 @@
-package com.meiyou.jet.ui;
+package com.jet.jet.ui;
 
 import org.junit.Test;
 
